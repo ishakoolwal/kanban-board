@@ -1,20 +1,64 @@
-<<<<<<< HEAD
-# React + Vite
+# Kanban Board Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Kanban Board built using React and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User Login (stored in LocalStorage)
+- Add new tasks
+- Three columns:
+  - To Do
+  - In Progress
+  - Done
+- Move tasks between columns
+- Persistent data using LocalStorage
+- Clean UI with Tailwind CSS
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React (Functional Components + Hooks)
+- Vite
+- Tailwind CSS
+- LocalStorage (for data persistence)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# kanban-board
->>>>>>> 3a9df1e85693c7ce94fae0a767255a6914b4a62b
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/
+│   ├── Login.jsx
+│   ├── Board.jsx
+│   ├── Column.jsx
+│
+├── contexts/
+│   └── BoardContext.jsx
+│
+├── utils/
+│   └── mockApi.js
+│
+└── App.jsx
+
+---
+
+## ▶️ How to Run the Project
+
+1. Clone the repository
+
+2. Install dependencies:
+   npm install
+
+3. Start development server:
+   npm run dev
+
+4. Open in browser:
+   http://localhost:5173
+
+---
+
+BY-
+ISHA KOOLWAL
+
